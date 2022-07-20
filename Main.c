@@ -13,6 +13,7 @@ void gotoxy(int x,int y){
 }
 
 void konfigurasiUI(){
+	SetConsoleTitle("Sistem Perbankan Sederhana - Bank Indonesia");
 	system("color 1F");
 	SetConsoleOutputCP(CP_UTF8);
 }
